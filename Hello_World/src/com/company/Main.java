@@ -18,7 +18,7 @@ public class Main {
         short maxShort = Short.MAX_VALUE;
         short minShort = Short.MIN_VALUE;
 //        maxShort = maxShort + 1; // -> throws error: java: incompatible types: possible lossy conversion from int to short
-//        minShort = minShort - 1; -> throws error
+//        minShort = minShort - 1; -> error thrown
 
         System.out.println("Max value of Short = " + maxShort);
         System.out.println("Max value of Short = " + minShort);
