@@ -1,6 +1,6 @@
 package DecoratorDesignPattern;
 
-public class CarDecorator implements ICar {
+public abstract class CarDecorator implements ICar {
     protected ICar car;
 
     public CarDecorator(ICar car) {
